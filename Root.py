@@ -14,7 +14,7 @@ P.S. root_detailed is deprecated
 """
 
 
-def sqrt(number: int,  digits: int = 5) -> str:
+def root(number: int,  digits: int = 5) -> str:
 
     power = 2
     # power exists so that i can modify the code to find nth root
