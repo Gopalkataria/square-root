@@ -3,8 +3,8 @@
 This Module finds roots of number using vedic maths
 
 All the digits since the first one are accurate to 100%
-The first digit of root is found by direct method and thereafter in a loop to find the remaining decimels
-the loop is self terminating
+The first digit of root is found by direct method and thereafter in a loop to 
+find the remaining decimels the loop is self terminating
 
 To understad the working, it is recommended that you first find out
 how to find roots of numbers using LONG DIVISION METHOD on google
@@ -58,7 +58,7 @@ def root(number: int,  digits: int = 5) -> str:
     discriminant = 0
 
 # this is generator for providing next digits required
-#  I'm using this to add save memory
+#  I'm using this to  save memory
     def num_generator(list_of_num, float_list):
 
         for num in list_of_num:
@@ -123,6 +123,12 @@ def root(number: int,  digits: int = 5) -> str:
 
     return root
 
+
+
+
+
+# the below present code is extremely deprecated , no one knows what and how it workking is
+# it is a legitimate example of what non descriptive , comment less variables can end up doing
 
 def root_detailed( square , digits = 5 ):
     
