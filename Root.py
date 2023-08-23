@@ -1,6 +1,7 @@
 """
 
-This Module finds roots of number using vedic maths
+This Module finds roots of number using maths which i dont really understand 
+i know this algorithm works because it was taught in school, why and how, i dont know 
 
 All the digits since the first one are accurate to 100%
 The first digit of root is found by direct method and thereafter in a loop to 
